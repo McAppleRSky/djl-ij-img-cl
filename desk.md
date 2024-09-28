@@ -1,3 +1,8 @@
+Install IJava kernel for jupyter
+  ~~git clone https://github.com/frankfliu/IJava.git
+  cd IJava/
+  gradlew installKernel~~
+
 python3 install.py --sys-prefix
 jupyter kernelspec install java
 jupyter kernelspec list
